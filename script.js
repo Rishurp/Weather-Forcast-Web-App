@@ -12,7 +12,7 @@ let weather =
         {
           if (!response.ok) 
             {
-              alert("kya bolti public.");
+              alert("No weather Found");
               
             }
         return response.json();
