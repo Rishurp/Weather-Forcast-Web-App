@@ -10,11 +10,6 @@ let weather =
        )
       .then((response) => 
         {
-          if (!response.ok) 
-            {
-              alert("No weather Found");
-              
-            }
         return response.json();
         })
         .then((data) => this.displayWeather(data));
